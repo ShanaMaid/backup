@@ -1,0 +1,42 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  About Me: /about
+  Github: https://github.com/ShanaMaid
+  CSDNBlog: http://blog.csdn.net/shanamaid
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tagcloud
+- archive
+- recent_posts
+- friendlink
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+favicon: https://avatars0.githubusercontent.com/u/20333903?v=3&s=460
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+# comment 
+disqus_shortname: d
