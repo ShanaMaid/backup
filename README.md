@@ -1,2 +1,0 @@
-# ShanaKnights
-hexo仓库
