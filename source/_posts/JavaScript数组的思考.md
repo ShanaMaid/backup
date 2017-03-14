@@ -6,14 +6,13 @@ tags:
 - 学习笔记
 
 ---
-昨晚睡觉前刷掘金看到一道面试题，由此引发了一系列的拓展与思考。趁着今天在公司比较闲，赶紧写下来，不然按我这毛病不知道又要拖多久了。
+昨晚睡觉前刷掘金看到一道面试题，由此引发了一系列的拓展与思考。
 
 <!-- more -->
 
 ## 面试题
 `不使用loop循环，创建一个长度为100的数组，并且每个元素的值等于它的下标`
 
-看到这个题的第一反应简直so easy！
 以下是我的一些解决方案
 
 ```
@@ -66,7 +65,20 @@ arr.map(function (val, index) {
 }); //  [undefined × 10, 10, undefined × 9, 20]
 
 ```
-问题很明显了，是因为`Object.keys()`与`map`跳过了数组中的`undefined`，换句话说，也就是数组中没有初始化的部分均会被跳过。
+可以看到显示的是`undefined x 10`,这种显示代表的是数组中未初始化的数量，而并非说是10个`undefined`的值。
+也就是说下面式子并不等价，下文会提到前者是稀疏数组，后者是密集数组。
+```
+Array(5) // [undefined × 5]
+
+[undefined, undefined, undefined, undefined, undefined]
+```
+也就是说利用`Array()`构造函数创建的数组其实是下面这样的，两者之间是等价的。
+```
+Array(5)
+
+[,,,,,]
+```
+问题很明显了，是因为`Object.keys()`与`map`跳过了数组中空的部分，换句话说，也就是数组中没有初始化的部分均会被跳过。
 发现问题后就很好解决了，只需要利用es6中的`fill`对数组初始化就可以了。
 ```
 Object.keys(Array(100).fill(0))
@@ -95,7 +107,7 @@ dense = [1, 2, 3, 4, 5]  //密集
 Array(5).join().split(',') // ["", "", "", "", ""]
 ```
 
-这样创建的数组值为空`''`而非`undefined`，比较推荐这种。
+这样创建的数组值为`''`，而非空，比较推荐这种。
 
 还可以使用`apply`，比如创建长度为5的密集数组`Array.apply(null, Array(5))`
 
@@ -109,7 +121,7 @@ Array(5).fill(undefined)
 
 ```
 
-虽然数组的值依然是`undefined`，但是这个时候是密集数组了。
+虽然数组的值是`undefined`，但是却是密集数组，换句话来说就是稀疏与密集数组与数组的值没有任何关系，在于数组中的每个值是否被初始化。
 
 ```
 sparse = []
@@ -138,9 +150,25 @@ dense:index=4    value=undefined
 
 true
 ```
-可以看到`dense`中的`value`虽然依然为`undefined`,但是并没有被`for...in`忽略,并且`sparse[0] === dense[0]`的结果为`true`说明两者之间的`undefined`并没有什么区别,唯一的区别是`sparse`的`undefined`是js自动填补，`dense`的`undefined`是我们赋值的。
+可以看到`dense`中的`value`为`undefined`,但是并没有被`for...in`忽略,并且`sparse[0] === dense[0]`的结果为`true`说明两者之间的`undefined`并没有什么区别,唯一的区别是`sparse`的`undefined`是代表空(未初始化)，`dense`的`undefined`是我们赋值的(已初始化)。
 
 换句话来说，虽然我们赋值是`undefined`，但是由于我们进行了这步赋值操作，js就认为数组已经初始化了，从而不会被`for...in`跳过。
+
+由此可知js中数组相关的方法对于空位(稀疏数组和密集数组)的处理方式是不同，这里在[阮老师的ES6中关于数组的空位](http://es6.ruanyifeng.com/#docs/array#数组的空位)中找到了分析。
+> ES5对空位的处理，已经很不一致了，大多数情况下会忽略空位。
+- forEach(), filter(), every() 和some()都会跳过空位。
+- map()会跳过空位，但会保留这个值
+- join()和toString()会将空位视为undefined，而undefined和null会被处理成空字符串。
+
+> ES6则是明确将空位转为undefined
+- Array.from方法会将数组的空位，转为undefined，也就是说，这个方法不会忽略空位。
+- 扩展运算符（...）也会将空位转为undefined。
+- copyWithin()会连空位一起拷贝。
+- fill()会将空位视为正常的数组位置。
+- for...of循环也会遍历空位。
+- entries()、keys()、values()、find()和findIndex()会将空位处理成undefined
+
+`总之由于对数组的空位的处理规则非常不统一，所以建议避免出现空位。`
 
 实际上，`typeof Array()`我们可以发现结果是`object`,js中的数组就是一个特殊的对象，换句话来说，js中的数组不是传统意义上的数组。
 ```
@@ -212,7 +240,7 @@ Array(100).fill(0).map(function (val, index) {
 
 ```
 
-后来仔细想了想，答案中任然存在部分问题，使用了`Object.keys()`的结果数组中的值为字符串形式的数字，`map`在MDN上[Array.prototype.map()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map#Compatibility)的polyfill中的代码来看也是使用了循环。但是出题人的意思应该是指不使用`for...in`、`for...of`、`for`、`while`循环吧。
+后来仔细想了想，答案中依然存在部分问题，使用了`Object.keys()`的结果数组中的值为字符串形式的数字，`map`在MDN上[Array.prototype.map()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map#Compatibility)的polyfill中的代码来看也是使用了循环。但是出题人的意思应该是指不使用`for...in`、`for...of`、`for`、`while`循环吧。
 
 总之我认为最稳妥的答案是以下几个
 ```
