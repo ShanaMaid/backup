@@ -9,9 +9,8 @@ description: 前端狗
 author: ShanaMaid
 language: zh-Hans
 timezone:
-duoshuo_shortname: ShanaKnights
 
-disqus_shortname: ShanaKnights
+# disqus_shortname: ShanaKnights
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://ShanaMaid.github.io
