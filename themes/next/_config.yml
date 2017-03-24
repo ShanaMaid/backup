@@ -43,6 +43,7 @@ menu:
   archives: /archives
   tags: /tags
   cv: /cv
+  sponsor: /sponsor
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -64,6 +65,7 @@ menu_icons:
   sitemap: sitemap
   commonweal: heartbeat
   cv: user
+  sponsor: heart
 
 
 
@@ -536,6 +538,7 @@ images: images
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 # wechatpay: /path/to/wechat-reward-image
 alipay: /images/pay.jpg
+wechatpay: /images/weixin.png
 
 # title
 links_title: 友情链接

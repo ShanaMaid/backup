@@ -31,51 +31,43 @@ Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/
 * 熟悉ES6标准，对于HTML5与CSS3都有所接触与认识
 * JavaScript方面对jQuery、vue、angular1.x较为熟悉，对于React有认识，但未曾深入;对AMD、CMD概念熟悉
 * CSS方面使用过less与编译器，对animate.css、hint.css等css库有使用经历
-* 能够独立完成数据库的设计与接口的撰写以及服务器的搭建，主要使用php，使用过的相关PHP框架有CI与ThinkPHP，nodejs使用过express，数据库使用mysql。能够独立完成CMS
+* 能够独立完成数据库的设计与接口的撰写以及服务器的搭建，主要使用php，使用过的相关PHP框架有CI与ThinkPHP，nodejs使用过express，数据库使用mysql。能够独立完成基本的CMS搭建。
 
 ## 实习经历
 ### 2016.12 - 至今 北京-百度 Web前端实习生
-* 百家号文章信息管理平台的搭建与维护工作
-* 后台数据接口编写到前端页面实现独立完成
-* 技术栈:angular1.x + require + echart , php + mysql + CI
+* FEED流审核平台的搭建与维护工作
+* 后台数据库设计、接口编写到前端页面实现独立完成
+* angular1.x + require + echart , php + mysql + CI
 
 ### 2016.07-2016.08 成都语洛科技有限公司 Web前端实习生
 * 构建某某幼儿信息管理平台
 * 主要负责前端页面的实现与前后端的信息交互，以及服务器的搭建与部分后端工作
-* 技术栈:jQuery+Bootstrap，php + mysql + ThinkPHP
+* jQuery+Bootstrap，php + mysql + ThinkPHP
 
 
 
 ## 项目经历
 ### Github 2016.07 - 至今
-以下项目均可在Github上查看，或点击项目名字进入Github项目地址
-#### [CSDNSpider](https://github.com/ShanaMaid/CSDNSpider)  
-* php + 正则表达式
-* 主要是对CSDN上博客进行备份，对文章进行迁移
+以下是部分主要项目，其余均可在Github上查看，点击项目名字进入Github项目地址。
+#### [vue-163-music](https://github.com/ShanaMaid/vue-163-music) 196`Star` 44`fork`
+* 用vue仿写163音乐客户端版，支持歌曲搜索、播放,localStorage本地缓存播放列表等功能
+* 在线版:[http://www.shanamaid.top:3000/](http://www.shanamaid.top:3000/)
+* vue, vue-router, vue-resource, vuex, webpack, express, http-proxy-middleware 
 
-#### JX3Spider [已废弃]
-* 对剑网3特定帖子进行筛选爬虫入库
-* 技术栈：jQuery + H+UI + reuirejs , nodejs + express + ejs + php + mysql
-* 采用双服务器，一台服务器提供访问，另一服务器用于php爬虫入库
-
-#### [wx-2048](https://github.com/ShanaMaid/wx-2048)
-* 微信小程序，重新实现2048
-
-#### [websocket-express-webchat](https://github.com/ShanaMaid/websocket-express-webchat)
-* 基于websocket的一个简单的聊天室,支持进入房间通知、离开房间通知、消息接收与发送、在线列表、服务器端信息备份
-* 技术栈：websocket + express + angular + socket.io + animate.css
-* 在线版:[http://www.shanamaid.top:7777/](http://www.shanamaid.top:7777/)
-
-#### [frontend-guidelines-zh-CN](https://github.com/ShanaMaid/frontend-guidelines-zh-CN)
+#### [frontend-guidelines-zh-CN](https://github.com/ShanaMaid/frontend-guidelines-zh-CN) 42`Star` 5`fork`
 * 翻译自Github上bendc的6,539星的文章[frontend-guidelines](https://github.com/bendc/frontend-guidelines)
 
-#### [vue-163-music [填坑中]](https://github.com/ShanaMaid/vue-163-music)
-* 用vue仿写163音乐客户端版，力求做到高度还原
-* 在线版:[http://blog.shanamaid.top/vue-163-music/example/##/](http://blog.shanamaid.top/vue-163-music/example/##/)
-
-#### [vue-image-scroll](https://github.com/ShanaMaid/vue-image-scroll)
+#### [vue-image-scroll](https://github.com/ShanaMaid/vue-image-scroll) 17`Star` 7`fork`
 * 一个模仿网易云音乐的vue图片滚动插件
+* 可通过npm安装，npm install vue-image-scroll 
 * [Live Demos and Documentation](http://blog.shanamaid.top/vue-image-scroll/example/)
+
+#### [websocket-express-webchat](https://github.com/ShanaMaid/websocket-express-webchat) 14`Star` 7`fork`
+* 基于websocket的一个简单的聊天室,支持进入房间通知、离开房间通知、消息接收与发送、在线列表、服务器端信息备份
+* websocket + express + angular + socket.io + animate.css
+* 在线版:[http://www.shanamaid.top:7777/](http://www.shanamaid.top:7777/)
+
+
 
 ### 外包项目经历
 #### 基于微信的优咖商务平台 - 成都享像科技有限公司 - 项目负责人
@@ -110,10 +102,10 @@ Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/
 
 ## 其它
 ### 博客
-个人博客从2016年10月创建到现在已经积累了13000+访问量，平均日访问量在100左右，同时网站已经被必应、搜狗、google等搜索引擎收录(搜索 “娜酱骑士团”)。
+个人博客从2016年10月创建到现在已经积累了1.7w访问量，平均日访问量在100左右，同时网站已经被必应、搜狗、google等搜索引擎收录(搜索 “娜酱骑士团”)。
 
 ### 掘金
-分享6篇文章，被152人关注，获887次收藏，被阅读2.3万次。
+分享9篇文章，被258人关注，获1201次收藏，被阅读3.1万次。
 
 ### BUG提交方面
 发现CSDN的一个BUG，可以利用curl更改ip地址访问进行刷分，[相关情况](http://blog.shanamaid.top/2016/10/16/PHP%E5%AE%9E%E6%88%98%EF%BC%9A%E5%88%A9%E7%94%A8Curl%E5%88%B7CSDN%E7%A7%AF%E5%88%86%20/)，已向CSDN社区管理人反应。
