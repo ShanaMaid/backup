@@ -30,4 +30,5 @@ date: 2017-02-25 19:54:09
 ## 投喂途径
 ![](/images/ganbei.png)
 <img style="height: 150px;float: left;" src="/images/pay.jpg"><img style="height: 150px;float: right;" src="/images/weixin.png">
+<div style="clear: both;"></div>
 

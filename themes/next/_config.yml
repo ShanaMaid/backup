@@ -42,7 +42,7 @@ menu:
   about: /about
   archives: /archives
   tags: /tags
-  cv: /cv
+  cv: https://github.com/ShanaMaid/cv
   sponsor: /sponsor
   #sitemap: /sitemap.xml
   #commonweal: /404.html
