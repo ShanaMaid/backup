@@ -1,0 +1,88 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  Categories: /categories
+  About: /about
+  Tags: /tags
+  Sponsor: /sponsor
+  Cv: https://github.com/ShanaMaid/cv
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: left
+widgets:
+- nav
+- about
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+
+# GalMenu
+galmenu: true
+mp3play: false
+gaymenu_item:
+- name: 首页
+  url : /
+- name: 关于
+  url : /about
+- name: 投喂
+  url : /sponsor
+- name: 归档
+  url : /archives
+- name: 简历
+  url : https://github.com/ShanaMaid/cv
+- name: Github
+  url : https://github.com/shanamaid
+
+social:
+- url: http://github.com/ShanaMaid
+  name: Github
+
+
+link_title: 友情链接
+links:
+  Chion Tang: https://blog.chionlab.moe/
+  uestcmao: https://uestcmao.github.io/
+  Encounter: http://www.angryzhangzhe.cn/
+
+
+# Sidebar Avatar
+# in theme directory(source/images): /images/avatar.jpg
+# in site  directory(source/uploads): /uploads/avatar.jpg
+avatar: https://avatars0.githubusercontent.com/u/20333903?v=3&s=460
+
+
+# 网站统计
+# 站长统计
+CNZZ: 1260644675
+
+# 评论
+# 网易云跟帖APPkey
+netease: 2217020738364b0fb365e919b0738383
+
+# leadcloud访问次数统计
+leancloud_visitors:
+  enable: true
+  app_id: 4FWJbd67YPU36gbAiyAnl0lF-gzGzoHsz
+  app_key: ofw0GRIkU9iBeevMnzhbTPAf

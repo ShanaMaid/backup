@@ -7,7 +7,7 @@ title: 娜酱骑士团
 subtitle:  死宅万岁，bilibili ( ゜- ゜)つロ 乾杯~
 description: 前端狗
 author: ShanaMaid
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # disqus_shortname: ShanaKnights
@@ -68,7 +68,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: shana
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
