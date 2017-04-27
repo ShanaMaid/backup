@@ -6,7 +6,6 @@ tags:
 - 学习笔记
 categories:
 - 学习笔记
-- web
 - JavaScript
 ---
 昨晚睡觉前刷掘金看到一道面试题，由此引发了一系列的拓展与思考。

@@ -7,8 +7,7 @@ tags:
 - CSS
 - HTML
 categories:
-- 学习笔记
-- web
+- 杂谈
 ---
 
 ## 面试
