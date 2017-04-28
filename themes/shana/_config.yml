@@ -6,7 +6,7 @@ menu:
   About: /about
   Tags: /tags
   Sponsor: /sponsor
-  Cv: https://github.com/ShanaMaid/cv
+  Cv: /cv
 rss: /atom.xml
 
 # Content

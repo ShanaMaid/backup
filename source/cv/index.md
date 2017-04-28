@@ -26,15 +26,15 @@ Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/
 2014 - 2018 电子科技大学 信息与软件工程学院 软件工程(软件技术)
 
 ## 专业技能
-* 能够熟练利用HTML、CSS、JavaScript对网页进行开发，了解W3C标准，能够对不同浏览器进行兼容，同时对于盒子模型、文档流、DOM操作等重要知识点有一定见解
+* 能够熟练利用HTML、CSS、JavaScript对网页进行开发，了解W3C标准，同时对于盒子模型、文档流、DOM操作等重要知识点有一定见解
 * 能够对网页进行性能优化、SEO等
 * 熟悉ES6标准，对于HTML5与CSS3都有所接触与认识
-* JavaScript方面对jQuery、vue、angular1.x较为熟悉，对于React有认识，但未曾深入;对AMD、CMD概念熟悉
+* JavaScript方面对vue、angular1.x、React均有涉猎
 * CSS方面使用过less与编译器，对animate.css、hint.css等css库有使用经历
-* 能够独立完成数据库的设计与接口的撰写以及服务器的搭建，主要使用php，使用过的相关PHP框架有CI与ThinkPHP，nodejs使用过express，数据库使用mysql。能够独立完成基本的CMS搭建。
+* 能够独立完成数据库的设计与接口的撰写以及服务器的搭建，主要使用php，使用过PHP的CI框架，nodejs使用过express，数据库使用mysql。能够独立完成基本的CMS搭建。
 
 ## 实习经历
-### 2016.12 - 至今 北京-百度 Web前端实习生
+### 2016.12 - 2017.06.20 北京-百度 Web前端实习生
 * FEED流审核平台的搭建与维护工作
 * 后台数据库设计、接口编写到前端页面实现独立完成
 * angular1.x + require + echart , php + mysql + CI
@@ -49,20 +49,25 @@ Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/
 ## 项目经历
 ### Github 2016.07 - 至今
 以下是部分主要项目，其余均可在Github上查看，点击项目名字进入Github项目地址。
-#### [vue-163-music](https://github.com/ShanaMaid/vue-163-music) 196`Star` 44`fork`
+#### [oho-reader](https://github.com/ShanaMaid/oho-reader) 开发中 <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/oho-reader.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/oho-reader.svg?style=social&label=Forks&maxAge=2592000"/>
+* 用react仿写追书神器APP，支持小说搜索、阅读，localStorage本地缓存等功能
+* 在线版:[http://www.shanamaid.top:3001/](http://www.shanamaid.top:3001/)
+* react, react-router, redux, react-redux,redux-thunk, http-proxy-middleware ,express, store.js
+
+#### [vue-163-music](https://github.com/ShanaMaid/vue-163-music) <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/vue-163-music.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/vue-163-music.svg?style=social&label=Forks&maxAge=2592000"/>
 * 用vue仿写163音乐客户端版，支持歌曲搜索、播放,localStorage本地缓存播放列表等功能
 * 在线版:[http://www.shanamaid.top:3000/](http://www.shanamaid.top:3000/)
 * vue, vue-router, vue-resource, vuex, webpack, express, http-proxy-middleware 
 
-#### [frontend-guidelines-zh-CN](https://github.com/ShanaMaid/frontend-guidelines-zh-CN) 42`Star` 5`fork`
+#### [frontend-guidelines-zh-CN](https://github.com/ShanaMaid/frontend-guidelines-zh-CN)<img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/frontend-guidelines-zh-CN.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/frontend-guidelines-zh-CN.svg?style=social&label=Forks&maxAge=2592000"/>
 * 翻译自Github上bendc的6,539星的文章[frontend-guidelines](https://github.com/bendc/frontend-guidelines)
 
-#### [vue-image-scroll](https://github.com/ShanaMaid/vue-image-scroll) 17`Star` 7`fork`
+#### [vue-image-scroll](https://github.com/ShanaMaid/vue-image-scroll) <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/vue-image-scroll.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/vue-image-scroll.svg?style=social&label=Forks&maxAge=2592000"/> [<img style="display:inline-block" src="https://img.shields.io/npm/dt/vue-image-scroll.svg?style=flat-square"/>](https://www.npmjs.com/package/vue-image-scroll)
 * 一个模仿网易云音乐的vue图片滚动插件
 * 可通过npm安装，npm install vue-image-scroll 
 * [Live Demos and Documentation](http://blog.shanamaid.top/vue-image-scroll/example/)
 
-#### [websocket-express-webchat](https://github.com/ShanaMaid/websocket-express-webchat) 14`Star` 7`fork`
+#### [websocket-express-webchat](https://github.com/ShanaMaid/websocket-express-webchat) <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/websocket-express-webchat.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/websocket-express-webchat.svg?style=social&label=Forks&maxAge=2592000"/>
 * 基于websocket的一个简单的聊天室,支持进入房间通知、离开房间通知、消息接收与发送、在线列表、服务器端信息备份
 * websocket + express + angular + socket.io + animate.css
 * 在线版:[http://www.shanamaid.top:7777/](http://www.shanamaid.top:7777/)
@@ -102,10 +107,10 @@ Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/
 
 ## 其它
 ### 博客
-个人博客从2016年10月创建到现在已经积累了1.7w访问量，平均日访问量在100左右，同时网站已经被必应、搜狗、google等搜索引擎收录(搜索 “娜酱骑士团”)。
+个人博客从2016年10月创建到现在已经积累了2.7w访问量，平均日访问量在200左右，同时网站已经被必应、搜狗、google等搜索引擎收录(搜索 “娜酱骑士团”)。
 
 ### 掘金
-分享9篇文章，被258人关注，获1201次收藏，被阅读3.1万次。
+分享10篇文章，被264人关注，获1331次收藏，被阅读3.6万次。
 
 ### BUG提交方面
-发现CSDN的一个BUG，可以利用curl更改ip地址访问进行刷分，[相关情况](http://blog.shanamaid.top/2016/10/16/PHP%E5%AE%9E%E6%88%98%EF%BC%9A%E5%88%A9%E7%94%A8Curl%E5%88%B7CSDN%E7%A7%AF%E5%88%86%20/)，已向CSDN社区管理人反应。
+发现CSDN的一个BUG，可以利用curl伪造报头的ip地址访问进行刷分，[相关情况](http://blog.shanamaid.top/2016/10/16/PHP%E5%AE%9E%E6%88%98%EF%BC%9A%E5%88%A9%E7%94%A8Curl%E5%88%B7CSDN%E7%A7%AF%E5%88%86%20/)，已向CSDN社区管理人反应。
