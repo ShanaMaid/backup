@@ -27,7 +27,7 @@ Github项目地址:[https://github.com/ShanaMaid/oho-reader](https://github.com/
 
 实现追书神器核心功能，做到小说阅读的极简体验，把每一分流量都用到刀刃上！
 
-在线版:[http://www.shanamaid.top:3001](http://www.shanamaid.top:3001)
+在线版:[http://oho.shanamaid.top/](http://oho.shanamaid.top/)
 服务器带宽较小，初次加载比较慢，请谅解！建议`clone`到本地进行体验！
 
 Github项目地址:[https://github.com/ShanaMaid/oho-reader](https://github.com/ShanaMaid/oho-reader)
