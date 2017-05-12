@@ -17,7 +17,7 @@ Github: [https://github.com/shanamaid](https://github.com/shanamaid)
 
 Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/shanamaid)
 
-个人博客: [http://blog.shanamaid.top/](http://blog.shanamaid.top/)
+个人博客: [https://blog.shanamaid.top/](https://blog.shanamaid.top/)
 
 
 
@@ -31,13 +31,14 @@ Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/
 * 熟悉ES6标准，对于HTML5与CSS3都有所接触与认识
 * JavaScript方面对vue、angular1.x、React均有涉猎
 * CSS方面使用过less与编译器，对animate.css、hint.css等css库有使用经历
-* 能够独立完成数据库的设计与接口的撰写以及服务器的搭建，主要使用php，使用过PHP的CI框架，nodejs使用过express，数据库使用mysql。能够独立完成基本的CMS搭建。
+* 能够独立完成数据库的设计与接口的撰写以及服务器的搭建，主要使用php，使用过PHP的CI框架，nodejs使用过express，数据库使用mysql。能够独立完成基本的CMS开发。
 
 ## 实习经历
 ### 2016.12 - 2017.06.20 北京-百度 Web前端实习生
-* FEED流审核平台的搭建与维护工作
-* 后台数据库设计、接口编写到前端页面实现独立完成
-* angular1.x + require + echart , php + mysql + CI
+* FEED内容质量平台的搭建与维护工作，后台数据库设计、接口编写到前端页面实现独立完成，angular1.x + require + echart , php + mysql + CI
+* 用户反馈闭环处理平台开发前端开发
+* 度秘debug平台后期前端开发维护工作
+
 
 ### 2016.07-2016.08 成都语洛科技有限公司 Web前端实习生
 * 构建某某幼儿信息管理平台
@@ -51,12 +52,12 @@ Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/
 以下是部分主要项目，其余均可在Github上查看，点击项目名字进入Github项目地址。
 #### [oho-reader](https://github.com/ShanaMaid/oho-reader) 开发中 <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/oho-reader.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/oho-reader.svg?style=social&label=Forks&maxAge=2592000"/>
 * 用react仿写追书神器APP，支持小说搜索、阅读，localStorage本地缓存等功能
-* 在线版:[http://www.shanamaid.top:3001/](http://www.shanamaid.top:3001/)
+* 在线版:[http://oho.shanalab.top/](http://oho.shanalab.top/)
 * react, react-router, redux, react-redux,redux-thunk, http-proxy-middleware ,express, store.js
 
 #### [vue-163-music](https://github.com/ShanaMaid/vue-163-music) <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/vue-163-music.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/vue-163-music.svg?style=social&label=Forks&maxAge=2592000"/>
 * 用vue仿写163音乐客户端版，支持歌曲搜索、播放,localStorage本地缓存播放列表等功能
-* 在线版:[http://www.shanamaid.top:3000/](http://www.shanamaid.top:3000/)
+* 在线版:[http://163music.shanalab.top/]([http://163music.shanalab.top/)
 * vue, vue-router, vue-resource, vuex, webpack, express, http-proxy-middleware 
 
 #### [frontend-guidelines-zh-CN](https://github.com/ShanaMaid/frontend-guidelines-zh-CN)<img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/frontend-guidelines-zh-CN.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/frontend-guidelines-zh-CN.svg?style=social&label=Forks&maxAge=2592000"/>
@@ -70,7 +71,7 @@ Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/
 #### [websocket-express-webchat](https://github.com/ShanaMaid/websocket-express-webchat) <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/websocket-express-webchat.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/websocket-express-webchat.svg?style=social&label=Forks&maxAge=2592000"/>
 * 基于websocket的一个简单的聊天室,支持进入房间通知、离开房间通知、消息接收与发送、在线列表、服务器端信息备份
 * websocket + express + angular + socket.io + animate.css
-* 在线版:[http://www.shanamaid.top:7777/](http://www.shanamaid.top:7777/)
+* 在线版:[http://webchat.shanalab.top/](http://webchat.shanalab.top/)
 
 
 

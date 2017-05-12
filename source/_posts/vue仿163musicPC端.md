@@ -26,7 +26,7 @@ Github项目地址:[https://github.com/ShanaMaid/vue-163-music](https://github.c
 欢迎`issue`，`pr`，`star` or `follow`！我将继续开源更多有趣的项目
 
 ## 在线版
-[点击进入 http://163music.shanamaid.top/](http://163music.shanamaid.top/)
+[点击进入 http://163music.shanalab.top/](http://163music.shanalab.top/)
 腾讯学生云主机，最低配，存在卡顿，建议clone到本地进行体验
 
 ## 使用
