@@ -34,7 +34,7 @@ Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/
 * 能够独立完成数据库的设计与接口的撰写以及服务器的搭建，主要使用php，使用过PHP的CI框架，nodejs使用过express，数据库使用mysql。能够独立完成基本的CMS开发。
 
 ## 实习经历
-### 2016.12 - 2017.06.20 北京-百度 Web前端实习生
+### 2016.12 - 至今 北京-百度 Web前端实习生
 * FEED内容质量平台的搭建与维护工作，后台数据库设计、接口编写到前端页面实现独立完成，angular1.x + require + echart , php + mysql + CI
 * 用户反馈闭环处理平台开发前端开发
 * 度秘debug平台后期前端开发维护工作
@@ -50,30 +50,27 @@ Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/
 ## 项目经历
 ### Github 2016.07 - 至今
 以下是部分主要项目，其余均可在Github上查看，点击项目名字进入Github项目地址。
-#### [oho-reader](https://github.com/ShanaMaid/oho-reader) 开发中 <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/oho-reader.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/oho-reader.svg?style=social&label=Forks&maxAge=2592000"/>
+#### [oho-reader](https://github.com/ShanaMaid/oho-reader) <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/oho-reader.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/oho-reader.svg?style=social&label=Forks&maxAge=2592000"/>
 * 用react仿写追书神器APP，支持小说搜索、阅读，localStorage本地缓存等功能
 * 在线版:[http://oho.shanalab.top/](http://oho.shanalab.top/)
-* react, react-router, redux, react-redux,redux-thunk, http-proxy-middleware ,express, store.js
 
 #### [vue-163-music](https://github.com/ShanaMaid/vue-163-music) <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/vue-163-music.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/vue-163-music.svg?style=social&label=Forks&maxAge=2592000"/>
 * 用vue仿写163音乐客户端版，支持歌曲搜索、播放,localStorage本地缓存播放列表等功能
 * 在线版:[http://163music.shanalab.top/]([http://163music.shanalab.top/)
-* vue, vue-router, vue-resource, vuex, webpack, express, http-proxy-middleware 
 
 #### [frontend-guidelines-zh-CN](https://github.com/ShanaMaid/frontend-guidelines-zh-CN)<img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/frontend-guidelines-zh-CN.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/frontend-guidelines-zh-CN.svg?style=social&label=Forks&maxAge=2592000"/>
 * 翻译自Github上bendc的6,539星的文章[frontend-guidelines](https://github.com/bendc/frontend-guidelines)
 
 #### [vue-image-scroll](https://github.com/ShanaMaid/vue-image-scroll) <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/vue-image-scroll.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/vue-image-scroll.svg?style=social&label=Forks&maxAge=2592000"/> [<img style="display:inline-block" src="https://img.shields.io/npm/dt/vue-image-scroll.svg?style=flat-square"/>](https://www.npmjs.com/package/vue-image-scroll)
-* 一个模仿网易云音乐的vue图片滚动插件
-* 可通过npm安装，npm install vue-image-scroll 
+* 一个模仿网易云音乐的vue图片滚动插件，npm install vue-image-scroll 
 * [Live Demos and Documentation](http://blog.shanamaid.top/vue-image-scroll/example/)
 
 #### [websocket-express-webchat](https://github.com/ShanaMaid/websocket-express-webchat) <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/websocket-express-webchat.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/websocket-express-webchat.svg?style=social&label=Forks&maxAge=2592000"/>
 * 基于websocket的一个简单的聊天室,支持进入房间通知、离开房间通知、消息接收与发送、在线列表、服务器端信息备份
-* websocket + express + angular + socket.io + animate.css
 * 在线版:[http://webchat.shanalab.top/](http://webchat.shanalab.top/)
 
-
+#### [terminal-translate](https://github.com/ShanaMaid/terminal-translate) <img style="display:inline-block" src="https://img.shields.io/github/stars/shanamaid/terminal-translate.svg?style=social&label=Stars&maxAge=2592000"/><img style="display:inline-block" src="https://img.shields.io/github/forks/shanamaid/terminal-translate.svg?style=social&label=Forks&maxAge=2592000"/> [<img style="display:inline-block" src="https://img.shields.io/npm/dt/terminal-translate.svg?style=flat-square"/>](https://www.npmjs.com/package/terminal-translate)
+* 命令行翻译工具，支持有道、百度、爱词霸三种翻译引擎，npm install terminal-translate
 
 ### 外包项目经历
 #### 基于微信的优咖商务平台 - 成都享像科技有限公司 - 项目负责人
@@ -108,7 +105,7 @@ Segmentfault: [https://segmentfault.com/u/shanamaid](https://segmentfault.com/u/
 
 ## 其它
 ### 博客
-个人博客从2016年10月创建到现在已经积累了2.7w访问量，平均日访问量在200左右，同时网站已经被必应、搜狗、google等搜索引擎收录(搜索 “娜酱骑士团”)。
+个人博客从2016年10月创建到现在已经积累了3w访问量，平均日访问量在200左右，同时网站已经被必应、搜狗、google等搜索引擎收录(搜索 “娜酱骑士团”)。
 
 ### 掘金
 分享10篇文章，被264人关注，获1331次收藏，被阅读3.6万次。

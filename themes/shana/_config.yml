@@ -6,7 +6,6 @@ menu:
   About: /about
   Tags: /tags
   Sponsor: /sponsor
-  Cv: /cv
 rss: /atom.xml
 
 # Content
@@ -50,8 +49,8 @@ gaymenu_item:
   url : /sponsor
 - name: 归档
   url : /archives
-- name: 简历
-  url : https://github.com/ShanaMaid/cv
+- name: xx
+  url : /#
 - name: Github
   url : https://github.com/shanamaid
 
